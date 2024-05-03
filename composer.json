@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Project\\Tasks\\": "src/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^2.0",
+        "psr/http-server-handler": "^1.0",
+        "nyholm/psr7": "^1.8",
+        "league/plates": "^3.5",
+        "psr/container": "^2.0",
+        "php-di/php-di": "^7.0",
+        "nyholm/psr7-server": "^1.1"
+    }
+}
